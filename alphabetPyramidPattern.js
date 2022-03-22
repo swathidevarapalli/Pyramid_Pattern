@@ -15,6 +15,6 @@ for (let i = 1; i <= n; i++) {
   for (let k = 0; k < 2 * i - 1; k++) {
     string += String.fromCharCode(k + 65); //The String.fromCharCode() method converts Unicode values to characters.(ASCII Values of Capital letters starts of 65 onwards.)
   }
-  string += "\n"; //To enter the new line
+  string += "\n"; //To enter the new line.
 }
 console.log(string);
